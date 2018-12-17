@@ -55,9 +55,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
-      height: 250px;
-      background: url("../img/IMG_1844.jpg");
+      width: 350px;
+      height: 350px;
+      background: url("../img/back1.jpg");
       border-radius: 50%;
       border: solid 3px #eece1a; }
   .menu .nav-item {
@@ -143,7 +143,7 @@ header {
 
 main {
   padding: 4rem;
-  min-height: calc(100vh-60px); }
+  min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
@@ -187,6 +187,25 @@ main {
   color: #fff;
   height: 60px; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #eece1a;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
@@ -211,9 +230,9 @@ main {
     transform: translate3d(100%, 0, 0);
     font-size: 24px; }
     .menu-branding .portrait {
-      width: 150px;
-      height: 150px;
-      background: url("../img/IMG_1844.jpg"); }
+      width: 246px;
+      height: 246px;
+      background: url("../img/back1.jpg"); }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; } }
