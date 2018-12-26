@@ -10,6 +10,7 @@ body {
   height: 100%;
   margin: auto;
   background-color: black;
+  background: url("../img/sea.jpg") no-repeat 50% 50%;
   top: 0;
   display: table;
   background-size: cover; }
