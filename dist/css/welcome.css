@@ -1,0 +1,39 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+.b1 {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: url("..img/welcomebg.jpg") no-repeat 50% 50%;
+  top: 0;
+  display: table;
+  background-size: cover; }
+  .b1 .in {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none; }
+    .b1 .in .content {
+      margin: auto;
+      max-width: 500px;
+      text-align: center; }
+      .b1 .in .content h1 {
+        color: #fff;
+        font-size: 500%;
+        text-shadow: 0 0 300px #000;
+        font-family: 'Century Gothic', sans-serif; }
+      .b1 .in .content .btn {
+        border-radius: 9px;
+        color: #f9f3f4;
+        text-decoration: none;
+        font-family: 'Century Gothic', sans-serif;
+        padding: 5px;
+        border: 3px solid;
+        font-weight: bold; }
+        .b1 .in .content .btn:hover {
+          color: #2196f3; }
