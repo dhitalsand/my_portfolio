@@ -242,6 +242,5 @@ main {
     margin-top: 15vh; }
   main#about {
     overflow: scroll;
-    overflow-x: scroll;
     margin-right: 10px;
-    margin-left: -50px; } }
+    margin-left: -10px; } }
