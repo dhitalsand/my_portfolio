@@ -237,7 +237,7 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (min-width: 300px) {
   main#home h1 {
     margin-top: 15vh; }
   main#about {
